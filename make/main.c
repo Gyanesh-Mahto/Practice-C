@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include"sum.h"
+#include"mul.h"
 #include"print.h"
 int main()
 {
@@ -11,4 +12,7 @@ int main()
 
     c=sum(a, b);
     print(c);
+    c=mul(a, b);
+    print(c);
+
 }
