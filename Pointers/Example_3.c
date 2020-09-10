@@ -7,7 +7,6 @@ int main()
     printf("Address of i: %d\n", &i);
     printf("Value of j: %d\n", j);
     printf("Address of j: %d\n", &j);
-    
 }
 /*
 O/P:
