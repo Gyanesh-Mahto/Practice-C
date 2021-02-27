@@ -42,6 +42,8 @@ int main()
         }
     }
     free(p);    //freeing the memory to avoid memory leakage
+    
+    p = NULL;   //No more dangling pointer
 }
 
 /*
